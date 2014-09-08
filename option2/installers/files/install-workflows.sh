@@ -39,7 +39,7 @@ else
         echo "JBoss EAP started."
 fi
 
-${ANT_HOME}/bin/ant -f /tmp/dtgov-1.3.0.Final/build.xml seed -Ds-ramp.shell.password=admin123!
+${ANT_HOME}/bin/ant -f /working/dtgov-1.3.0.Final/build.xml seed -Ds-ramp.shell.password=admin123!
 
 # And we can shutdown the system using the CLI.
 echo "Shutting down JBoss EAP."
